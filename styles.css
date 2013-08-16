@@ -6,7 +6,9 @@ body {
 }
 
 #content {
-	margin: 0 auto;
+	display: table;
+	margin: auto;
+	width: 1010px;
 }
 
 #genres {
