@@ -6,7 +6,6 @@ body {
 }
 
 #content {
-<<<<<<< HEAD
 	margin: 0 auto;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -22,15 +21,11 @@ body {
 
 #headmenu {
 	float: right;
+	text-align: right;
 	color: #FFF;
 	font-size: 20px;
 	margin-top: 75px;
 	/*font-weight: bold;*/
-=======
-	display: table;
-	margin: auto;
-	width: 1010px;
->>>>>>> 8ecca917f1c155a53450bda979b2d5d662bd9e87
 }
 
 #genres {
