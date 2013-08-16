@@ -1,17 +1,21 @@
 body {
-	background: #FFFFFF;
+	background: url('images/background.png');
 	font-family: 'Open Sans', Arial, Verdana, sans-serif;
 	font-size: 12px;
-	color: #444;
+	color: #333;
+}
+
+#content {
+	margin: 0 auto;
 }
 
 #genres {
 	width: 20%;
 	float: left;
-	border: 5px solid #EEE;
+	border: 5px solid #DDD;
 	overflow: auto;
 	padding: 7px;
-	background-color: #EEE;
+	background-color: #DDD;
 }
 
 .list {
@@ -59,16 +63,16 @@ body {
 }
 
 #artists {
-	margin-left: 30px;
+	margin-left: 10px;
 	float: left;
 }
 
 .artbox {
-	border: 5px solid #EEE;
+	border: 5px solid #DDD;
 	overflow: auto;
 	padding: 7px;
 	margin-bottom: 10px;
-	background-color: #EEE;
+	background-color: #DDD;
 }
 
 .arrows {
@@ -100,13 +104,13 @@ body {
 }
 
 .samples table {
-	border: 0px solid #AAA;
+	border: 0px solid #CCC;
 	border-collapse: collapse;
 }
 
 .samples td {
-	background-color: #DDD;
-	border-bottom: 5px solid #EEE;
+	background-color: #CCC;
+	border-bottom: 5px solid #DDD;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-right: 7px;
