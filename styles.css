@@ -16,27 +16,37 @@ body {
 }
 
 #header {
+	height: 125px;
 	border-bottom: 10px solid #BBB;
 }
 
-#menubuttons {
-
-}
-
 .menubutton {
-
+	float: right;
+	background: #CCC;
+	width: 100px;
+	height: 40px;
+	margin-left: 10px;
+	line-height: 37.5px;
+	vertical-align: middle;
 }
 
 .menubutton:hover {
-	color: #CCC;
+	color: #FFF;
+	/*font-weight: bold;*/
 	cursor: pointer;
+	background-color: #999;
+	-webkit-transition: all .08s ease-in;
+	-moz-transition: all .08s ease-in;
+	-ms-transition: all .08s ease-in;
+	-o-transition: all .08s ease-in;
+	transition: all .08s ease-in;
 }
 
 #headmenu {
 	float: right;
 	margin-top: 75px;
 	text-align: center;
-	color: #FFF;
+	color: #333;
 	font-size: 18px;
 	/*font-weight: bold;*/
 }
