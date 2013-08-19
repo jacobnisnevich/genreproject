@@ -96,6 +96,54 @@ body {
 	background-color: #DDD;
 }
 
+.uarrow {
+	display: block;
+	width: 23px;
+	height: 20px;
+	background-image: url('images/up_both.png');
+	background-position: 0 0; width: 23px; height: 20px;
+}
+
+.uarrow:hover {
+	background-position: 0 -40px; width: 23px; height: 20px;
+}
+
+.darrow {
+	display: block;
+	width: 23px;
+	height: 20px;
+	background-image: url('images/down_both.png');
+	background-position: 0 0; width: 23px; height: 20px;
+}
+
+.darrow:hover {
+	background-position: 0 -40px; width: 23px; height: 20px;
+}
+
+.suarrow {
+	display: block;
+	width: 12px;
+	height: 10px;
+	background-image: url('images/sup_both.png');
+	background-position: 0 0; width: 12px; height: 10px;
+}
+
+.suarrow:hover {
+	background-position: 0 -20px; width: 12px; height: 10px;
+}
+
+.sdarrow {
+	display: block;
+	width: 12px;
+	height: 10px;
+	background-image: url('images/sdown_both.png');
+	background-position: 0 0; width: 12px; height: 10px;
+}
+
+.sdarrow:hover {
+	background-position: 0 -20px; width: 12px; height: 10px;
+}
+
 .arrows {
 	float: left;
 }
