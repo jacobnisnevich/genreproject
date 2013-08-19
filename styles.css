@@ -19,12 +19,25 @@ body {
 	border-bottom: 10px solid #BBB;
 }
 
+#menubuttons {
+
+}
+
+.menubutton {
+
+}
+
+.menubutton:hover {
+	color: #CCC;
+	cursor: pointer;
+}
+
 #headmenu {
 	float: right;
-	text-align: right;
-	color: #FFF;
-	font-size: 20px;
 	margin-top: 75px;
+	text-align: center;
+	color: #FFF;
+	font-size: 18px;
 	/*font-weight: bold;*/
 }
 
