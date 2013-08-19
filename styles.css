@@ -102,6 +102,7 @@ body {
 	height: 20px;
 	background-image: url('images/up_both.png');
 	background-position: 0 0; width: 23px; height: 20px;
+	cursor: pointer;
 }
 
 .uarrow:hover {
@@ -114,6 +115,7 @@ body {
 	height: 20px;
 	background-image: url('images/down_both.png');
 	background-position: 0 0; width: 23px; height: 20px;
+	cursor: pointer;
 }
 
 .darrow:hover {
@@ -126,6 +128,7 @@ body {
 	height: 10px;
 	background-image: url('images/sup_both.png');
 	background-position: 0 0; width: 12px; height: 10px;
+	cursor: pointer;
 }
 
 .suarrow:hover {
@@ -138,6 +141,7 @@ body {
 	height: 10px;
 	background-image: url('images/sdown_both.png');
 	background-position: 0 0; width: 12px; height: 10px;
+	cursor: pointer;
 }
 
 .sdarrow:hover {
