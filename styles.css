@@ -65,7 +65,7 @@ body {
 }
 
 .list {
-	list-style-image: url('images/list_bullet.png'); 
+	list-style-image: url('images/list_bullet.png');
 }
 
 .genre {
@@ -197,6 +197,13 @@ body {
 
 .arrows {
 	float: left;
+}
+
+.artist_score {
+	font-size: 1.7em;
+	text-align: center;
+	position: relative;
+	top: -3px;
 }
 
 .up {
