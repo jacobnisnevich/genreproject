@@ -5,13 +5,14 @@
 	<head>
  		<link href="styles.css" rel="stylesheet" type="text/css">
  		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ 		<script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
  		<script src="scripts.js"></script>
  	</head>
 	<body>
 		<div id="content">
 			<div id="header">
 			<img src="images/logo.png"></img>
-			<div id="headmenu"><div class="menubutton">About</div><div class="menubutton">All Genres</div><div class="menubutton">Explore</div><div class="menubutton">Home</div></div> 
+			<div id="headmenu"><div class="menubutton">About</div><div class="menubutton">All Genres</div><div class="menubutton">Explore</div><div class="menubutton">Home</div></div>
 			</div>
 			<div id="genres">
 				<div class="genre">
@@ -26,7 +27,7 @@
 							<li>Prog folk</li>
 							<li>Canterbury scene</li>
 						</ul>
-					</div>	
+					</div>
 				</div>
 				<div>
 					<div id="related">Related genres</div>
@@ -38,7 +39,7 @@
 							<li>Experimental rock</li>
 						</ul>
 				</div>
-					</div>	
+					</div>
 				<div>
 					<div id="descript">Description</div>
 					<div class=description>Progressive rock, also known as prog rock or prog, is a rock music subgenre that originated in the United Kingdom, with further developments in Germany, Italy, and France, throughout the mid-to-late 1960s and 1970s. It developed from psychedelic rock and originated, similarly to art rock, as an attempt to give greater artistic weight and credibility to rock music. Bands abandoned the short pop single in favor of instrumentation and compositional techniques more frequently associated with jazz or classical music in an effort to give rock music the same level of musical sophistication and critical respect. Songs were replaced by musical suites that often stretched to 20 or 40 minutes in length and contained symphonic influences, extended musical themes, fantasy-like ambience and lyrics, and complex orchestrations. Music critics, who often labeled the concepts as "pretentious" and the sounds as "pompous" and "overblown," tended to be hostile toward the genre or to completely ignore it.</div>
@@ -46,11 +47,12 @@
 			</div>
 			<div id="artists">
 				<div>
-					<div class="artbox">
-						<div class="arrows">
+					<div class="artbox" id="king_crimson">
+						<div class="artist_score_area arrows">
 							<div class="up">
 								<a class="uarrow"></a>
 							</div>
+							<div class="artist_score">&nbsp;</div>
 							<div class="down">
 								<a class="darrow"></a>
 							</div>
@@ -109,11 +111,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="artbox">
-						<div class="arrows">
+					<div class="artbox" id="yes">
+						<div class="artist_score_area arrows">
 							<div class="up">
 								<a class="uarrow"></a>
 							</div>
+							<div class="artist_score">&nbsp;</div>
 							<div class="down">
 								<a class="darrow"></a>
 							</div>
@@ -134,7 +137,7 @@
 												</div>
 										</div>
 										</td>
-										<td width="464">"Siberian Khatru"" on <i>Close to the Edge<i></td>
+										<td width="464">"Siberian Khatru" on <i>Close to the Edge<i></td>
 										<td width="100" align="center" class="youtube"></td>
 										<td align="center"><img src="images/more.png"></img></td>
 									</tr>
@@ -172,11 +175,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="artbox">
-						<div class="arrows">
+					<div class="artbox" id="genesis">
+						<div class="artist_score_area arrows">
 							<div class="up">
 								<a class="uarrow"></a>
 							</div>
+							<div class="artist_score">&nbsp;</div>
 							<div class="down">
 								<a class="darrow"></a>
 							</div>
