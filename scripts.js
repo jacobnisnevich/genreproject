@@ -3,7 +3,7 @@ $(document).ready(function () {
   	$('<div>').html('<iframe width="300" height="24" src="//www.youtube.com/embed/Z9IQnDRYIYU" frameborder="0" allowfullscreen></iframe>').appendTo($(this).parent());
   });
 
-  $('.arrows a').click(function () {
+  $('.artist_score_area a').click(function () {
     if (!$(this).hasClass('bigarrow')) {
       // mark this arrow as clicked
       $(this).closest('.arrows').find('a').removeClass('bigarrow');
@@ -22,6 +22,11 @@ $(document).ready(function () {
       var artistRef = new Firebase('https://musicthingy.firebaseio.com/artists/' + artistName);
       artistRef.update({score: newScore});
     }
+  });
+
+  $('.samples .arrows a').click(function () {
+    $(this).closest('.arrows').find('a').removeClass('smallarrow');
+    $(this).addClass('smallarrow');
   });
 
   // get all artist scores
