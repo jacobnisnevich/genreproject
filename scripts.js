@@ -7,6 +7,15 @@ $(document).ready(function () {
   	$(this).addClass('bigarrow');
   });
   $('.darrow').click(function () {
+    $(this).closest('.arrows').find('a').removeClass('bigarrow');
   	$(this).addClass('bigarrow');
+  });
+    $('.suarrow').click(function () {
+    $(this).closest('.arrows').find('a').removeClass('smallarrow');
+    $(this).addClass('smallarrow');
+  });
+  $('.sdarrow').click(function () {
+    $(this).closest('.arrows').find('a').removeClass('smallarrow');
+    $(this).addClass('smallarrow');
   });
 });
