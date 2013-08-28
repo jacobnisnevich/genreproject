@@ -1,6 +1,9 @@
 $(document).ready(function () {
   $('.youtube').click(function () {
-  	$('<div>').html('<iframe width="300" height="24" src="//www.youtube.com/embed/Z9IQnDRYIYU" frameborder="0" allowfullscreen></iframe>').appendTo($(this).parent());
+  	$('<div> id=test3').html('<iframe width="250" height="24" align="right" src="//www.youtube.com/embed/Z9IQnDRYIYU?theme=light&autohide=0" frameborder="0" autohide="0" autoplay="1" allowfullscreen></iframe>').appendTo($('#test2').parent());
+    $(this).hide();
+    $('table.starless').css("width","0");
+    $('table.test').css("width","100%");
   });
 
   $('.artist_score_area a').click(function () {
@@ -38,4 +41,5 @@ $(document).ready(function () {
       $('#' + artist + ' .artist_score').text(data.score);
     });
   });
+
 });
