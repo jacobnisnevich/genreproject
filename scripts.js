@@ -1,9 +1,10 @@
 $(document).ready(function () {
   $('.youtube').click(function () {
-  	$('<div> id=test3').html('<iframe width="250" height="24" align="right" src="//www.youtube.com/embed/Z9IQnDRYIYU?theme=light&autohide=0" frameborder="0" autohide="0" autoplay="1" allowfullscreen></iframe>').appendTo($('#test2').parent());
-    $(this).hide();
-    $('table.starless').css("width","0");
-    $('table.test').css("width","100%");
+    if ($(this).attr('data-url')) {
+    	$(this).html('<iframe width="250" height="24" align="right" src="'+$(this).attr('data-url')+'" frameborder="0" autohide="0" autoplay="1" allowfullscreen></iframe>')
+          .addClass('expanded');
+      $(this).parent().children(':nth-child(2)').addClass('contracted');
+    }
   });
 
   $('.artist_score_area a').click(function () {
