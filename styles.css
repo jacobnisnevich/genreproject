@@ -252,21 +252,23 @@ body {
 	padding-left: 7px;
 }
 
-#test3 {
-	float: right;
-}
-
-#test2 {
-	float: left;
+.samples .contracted {
+	max-width: 0;
 }
 
 .youtube {
 	background: url('images/youtube_both.png') no-repeat top center;
-	background-position: 0 0; width: 32px; height: 32px;
-}
-
-.youtube:hover {
-	background-position: 0 -64px; width: 32px; height: 32px;
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
 	cursor: pointer;
 }
 
+.youtube:hover {
+	background-position: 0 -64px;
+}
+
+.youtube.expanded {
+	width: 250px;
+	background: #CCC;
+}
